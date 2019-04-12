@@ -10,7 +10,7 @@ void print(auto A)
    cout<<endl;
 }
 
-void mystery1(auto& Data)
+void mystery1(auto& Data)//Insertion
 {
   cout<<endl<<"Mystery 1"<<endl<<"---------------------"<<endl;
 
@@ -26,7 +26,7 @@ void mystery1(auto& Data)
 }
 
 //... Other mysteries...
-void mystery2(auto& Data)
+void mystery2(auto& Data)//Bubble
 {
   cout<<endl<<"Mystery 2"<<endl<<"---------------------"<<endl;
 
@@ -42,7 +42,7 @@ void mystery2(auto& Data)
 }
 
 
-void mystery3(auto& Data)
+void mystery3(auto& Data)//Selection
 {
   cout<<endl<<"Mystery 3"<<endl<<"---------------------"<<endl;
 
